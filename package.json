@@ -1,0 +1,16 @@
+{
+  "name": "product-mgmt-app",
+  "version": "1.0.0",
+  "description": "CLI Product Management — CS489 Lab 1",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/edu/miu/cs/cs489appsd/lab1/productmgmtapp/ProductMgmtApp.ts",
+    "start:js": "node dist/edu/miu/cs/cs489appsd/lab1/productmgmtapp/ProductMgmtApp.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
